@@ -1,0 +1,159 @@
+/* Tổng thể container */
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #FEDCC5 0%, #FEDDC6 100%);
+  gap: 150px; /* Khoảng cách giữa form và hình hamster */
+}
+
+/* Form đăng nhập */
+.login-form {
+  width: 400px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Logo */
+.logo-container {
+  display: flex;
+  justify-content: center; /* Căn giữa logo */
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 200px; /* Điều chỉnh kích thước logo */
+}
+
+/* Nhóm input */
+.input-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Quên mật khẩu */
+.forgot-password {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.forgot-password a {
+  color: #AE4700 !important;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+/* Nút đăng nhập */
+.sign-in-btn {
+  width: 100%;
+  padding: 14px;
+  background: #F25019;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.sign-in-btn:hover {
+  background: #D94315;
+}
+
+/* Chữ "Or Continue With" */
+.or-text {
+  margin: 15px 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+/* Đăng nhập với mạng xã hội */
+.social-login {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.social-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 14px;
+  justify-content: center;
+}
+
+.google {
+  background: #DB4437;
+  color: white;
+}
+
+.facebook {
+  background: #1877F2;
+  color: white;
+}
+
+/* Đăng ký */
+.register {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.register a {
+  color: #AE4700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}
+
+/* Hình hamster */
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section img {
+  width: 600px; /* Điều chỉnh kích thước ảnh hamster */
+  height: auto;
+}
